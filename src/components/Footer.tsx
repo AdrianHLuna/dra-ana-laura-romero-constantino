@@ -13,7 +13,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-foreground text-background lg:pr-40">
+    <footer className="bg-foreground text-background">
       <div className="mx-auto max-w-6xl px-4 py-12">
         <Image
           src="/brand/isotype-3kids.png"
