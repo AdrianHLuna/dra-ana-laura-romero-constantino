@@ -33,7 +33,7 @@ export default function HeroBlobPhoto({ src, alt }: HeroBlobPhotoProps) {
 
   return (
     <div className="blob-shape relative aspect-[4/5] w-full overflow-hidden bg-muted">
-      <Image src={src as string} alt={alt} fill className="object-cover" sizes="(max-width: 1024px) 90vw, 45vw" priority onError={() => setFailed(true)} />
+      <Image src={src as string} alt={alt} fill className="object-cover object-[56%_center]" sizes="(max-width: 1024px) 90vw, 45vw" priority onError={() => setFailed(true)} />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export const doctor: DoctorProfile = {
   cedulaInstitucion: "UNACH",
   cedulaEspecialidad: "13476670",
   cedulaEspecialidadInstitucion: "UNAM",
-  cofepris: undefined,
+  cofepris: "2307012002A00294",
   phone: "+529616084710",
   whatsapp: "+529616084710",
   emergencyPhone: "+529616084710",
@@ -32,7 +32,7 @@ export const doctor: DoctorProfile = {
     "Lunes a viernes de 9:00 a 13:00 y de 16:00 a 18:00. Sábados de 11:00 a 13:00.",
   openingHours: ["Mo-Fr 09:00-13:00", "Mo-Fr 16:00-18:00", "Sa 11:00-13:00"],
   acceptingNewPatients: true,
-  photo: "/doctora-placeholder.jpg",
+  photo: "/hero.jpg",
   bio:
     "La Dra. Ana Laura Romero Constantino es médico pediatra en Tuxtla Gutiérrez, Chiapas, con más de 2,000 pacientes atendidos a lo largo de su práctica clínica. Su consulta está enfocada en el acompañamiento integral del crecimiento y desarrollo infantil, desde el control del niño sano hasta la atención de enfermedades agudas comunes en la infancia y la adolescencia. Egresada de la Universidad Autónoma de Chiapas y especializada en Pediatría por la Universidad Nacional Autónoma de México, combina un trato cercano con los padres y una explicación clara de cada diagnóstico, para que las familias entiendan el estado de salud de sus hijos sin tecnicismos innecesarios.",
   philosophy:

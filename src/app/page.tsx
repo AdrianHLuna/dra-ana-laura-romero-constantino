@@ -60,7 +60,7 @@ export default function Home() {
 
           <div className="relative mx-auto w-full max-w-sm">
             <HeroFloatBadges />
-            <HeroBlobPhoto alt={`${doctor.title} ${doctor.name}`} />
+            <HeroBlobPhoto src="/hero.jpg" alt={`${doctor.title} ${doctor.name}`} />
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function Home() {
 
       <section aria-labelledby="about-heading" className="px-4 py-20">
         <div className="mx-auto grid max-w-5xl gap-10 md:grid-cols-[1fr_1.6fr] md:items-start">
-          <DoctorPhoto alt={`${doctor.title} ${doctor.name}`} />
+          <DoctorPhoto src="/aboutme.jpg" alt={`${doctor.title} ${doctor.name}`} />
           <div>
             <h2 id="about-heading" className="font-heading text-2xl font-bold text-foreground md:text-3xl">
               Sobre {doctor.title} {doctor.name}
