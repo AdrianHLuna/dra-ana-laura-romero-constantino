@@ -198,7 +198,7 @@ export const diseases: MedicalCondition[] = [
     ],
     relatedSymptoms: ["sy-ardor-orinar", "sy-poliuria", "sy-fiebre", "sy-dolor-abdominal", "sy-dolor-espalda"],
     lastReviewed: "2026-11-09",
-    image: "/images/diseases/infeccion-vias-urinarias.jpg",
+    image: "/images/diseases/infeccion-de-vias-urinarias.jpg",
     seo: {
       title: "Infección Urinaria Infantil | Pediatra en Tuxtla Gutiérrez",
       description:
